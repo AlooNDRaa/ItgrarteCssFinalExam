@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora la belleza del espacio y las nebulosas en esta página accesible.">
+    <meta name="keywords" content="espacio, nebulosas, astronomía, astronomía accesible">
+    <title>Espacio y Nebulosas</title>
+    <link rel="stylesheet" href="space.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2254/2254724.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>El Fascinante Mundo de las Nebulosas</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#types">Tipos de Nebulosas</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>¿Qué es una Nebulosa?</h2>
+            <p>Las nebulosas son enormes nubes de gas y polvo en el espacio, a menudo consideradas los lugares de nacimiento de las estrellas.</p>
+        </section>
+
+        <section id="types">
+            <h2>Tipos de Nebulosas</h2>
+            <article>
+                <h3>Nebulosas de Emisión</h3>
+                <p>Estas nebulosas brillan debido a la ionización de los gases por las estrellas cercanas.</p>
+            </article>
+            <article>
+                <h3>Nebulosas de Reflexión</h3>
+                <p>Reflejan la luz de las estrellas cercanas, brillando con un tono azul suave.</p>
+            </article>
+            <article>
+                <h3>Nebulosas Oscuras</h3>
+                <p>Son nubes densas que bloquean la luz de las estrellas detrás de ellas.</p>
+            </article>
+        </section>
+
+        <section id="gallery" aria-label="Galería de Nebulosas">
+            <h2>Galería de Nebulosas</h2>
+            <div class="slider" aria-roledescription="Carrusel" aria-label="Imágenes de nebulosas">
+                <div class="slides">
+                    <figure class="slide" id="slide1" aria-hidden="false">
+                        <img src="/imgs/nebulosa1.jpg" alt="Nebulosa de Orión, una nube de gas brillante en el espacio">
+                        <figcaption>Nebulosa de Orión: Una de las nebulosas más brillantes, visible a simple vista desde la Tierra.</figcaption>
+                    </figure>
+                    <figure class="slide" id="slide2" aria-hidden="true">
+                        <img src="/imgs/nebulosa2.jpg" alt="Nebulosa del Águila, una región de formación estelar con columnas de gas y polvo">
+                        <figcaption>Nebulosa del Águila: Famosa por los 'Pilares de la Creación', columnas de gas donde se forman nuevas estrellas.</figcaption>
+                    </figure>
+                    <figure class="slide" id="slide3" aria-hidden="true">
+                        <img src="/imgs/nebulosa3.jpg" alt="Nebulosa del Cangrejo, restos de una supernova con filamentos de gas">
+                        <figcaption>Nebulosa del Cangrejo: Restos de una supernova con filamentos de gas que se expanden desde una estrella en explosión.</figcaption>
+                    </figure>
+                        <figure class="slide" id="slide4" aria-hidden="true">
+                            <img src="/imgs/nebulosa5.jpg" alt="Nebulosa del velo, una nebulosa de gas ionizado">
+                            <figcaption>Nebulosa del velo: Es la parte visible del Bucle de Cygnus, también conocido como fuente de radio W78, o Sharpless 103. Es una nebulosa muy extensa y se suele dividir en tres grandes áreas: El velo Oriental: (Caldwell 34) que se halla cerca de la estrella 52 Cygni. El velo occidental (Caldwell 33), y el Triángulo de Pickering Wisp. Se trata del remanente de una supernova relativamente débil en la constelación del Cisne..</figcaption>
+                            </figure>
+                </div>
+                <div class="controls">
+                <button id="buttons" class="prev" aria-label="Imagen anterior">⟨</button>
+                <button id="buttons" class="next" aria-label="Imagen siguiente">⟩</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <h2>Contacto</h2>
+        <section id="contact">
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button class="buttton-evn" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <div class="buttonscroll">
+    <button id="myBtn">
+        ↑
+    </button>
+    </div>
+    <footer>
+        <p>&copy; 2024 Explora el Espacio</p>
+    </footer>
+    <script src="space.js"></script>
+    <script src="button.js"></script>
+</body>
+</html>
