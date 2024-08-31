@@ -1,0 +1,47 @@
+Proyecto: Espacio y Nebulosas
+
+Descripción:
+
+Este proyecto es una página web diseñada para educar y fascinar a los usuarios sobre las maravillas del espacio, 
+específicamente enfocándose en las nebulosas. La página incluye una introducción sobre qué son las nebulosas, 
+una sección que describe los diferentes tipos de nebulosas, una galería interactiva con imágenes impresionantes, y una sección de contacto 
+para que los usuarios puedan enviar mensajes.
+
+Técnicas CSS Utilizadas:
+
+En la creación de esta página web, se han empleado diversas técnicas CSS para asegurar una experiencia de usuario óptima y un diseño visual atractivo:
+
+Diseño Responsivo: Utilicé media queries para asegurar que la página se vea bien en dispositivos de diferentes tamaños,
+ desde teléfonos móviles hasta monitores de escritorio.
+
+Flexbox: Implementé flexbox en la estructura del menú de navegación y en la galería para alinear los elementos de manera ordenada y fluida, 
+permitiendo que se adapten al espacio disponible.
+
+Estilos Personalizados para Elementos: Se aplicaron estilos personalizados a los botones de control del carrusel 
+para mejorar la interactividad y la usabilidad. El botón de desplazamiento hacia arriba tiene un estilo destacado para facilitar la navegación.
+
+Efectos Visuales: Utilicé la propiedad object-fit: cover para asegurar que las imágenes de la
+ galería se muestren correctamente sin deformaciones, independientemente del tamaño de la pantalla.
+
+Accesibilidad: Implementé atributos ARIA en la galería y en los controles del carrusel 
+para mejorar la accesibilidad, permitiendo que usuarios con discapacidades puedan navegar y entender el contenido con mayor facilidad.
+
+Decisiones de Diseño Importantes:
+
+Paleta de Colores: Opté por una paleta de colores oscuros y tonos espaciales,
+ como el negro y el azul oscuro, para reflejar el tema del espacio y hacer que las imágenes de las nebulosas resalten visualmente.
+
+Tipografía: Seleccioné una tipografía sans-serif moderna y clara para asegurar la legibilidad del texto en todos los dispositivos,
+ manteniendo un estilo limpio y profesional.
+
+Estructura del Contenido: La estructura del contenido
+ fue diseñada para ser clara y fácil de navegar. Cada sección está claramente separada y etiquetada, facilitando la comprensión del contenido.
+
+Reflexión Final:
+Este proyecto me ha permitido profundizar en técnicas avanzadas de CSS y pensar 
+críticamente sobre cómo combinar funcionalidad con un diseño estéticamente agradable.
+Me enfoque en crear una página que no solo sea informativa, sino también visualmente impactante y accesible para todos los usuarios.
+La integración de un carrusel de imágenes y un diseño responsivo fueron desafíos significativos, pero la satisfacción de ver el producto final en funcionamiento hace que el esfuerzo valga la pena.
+Estoy orgullosa del resultado y emocionada por seguir aprendiendo y mejorando en futuros proyectos mi css. Agradezco todo lo que me enseñaron en las clases y las nuevas formas de pensar que me brindaron.
+
+Atte: Alondra Gadea-2024
