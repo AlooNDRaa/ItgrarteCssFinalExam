@@ -66,3 +66,8 @@ JavaScript: Para la interacción del usuario, como el control del carrusel y el 
 
 ## Autor
 Este proyecto fue desarrollado por Gadea Alondra. Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
+
+
+## © 2024 Explora el Espacio. Todos los derechos reservados.
+Este `README.md` proporciona una visión general completa del proyecto, incluyendo instrucciones de instalación, uso, y tecnologías utilizadas. ¡Espero que te sea útil!
+¡Gracias por visitar mi proyecto! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo.
